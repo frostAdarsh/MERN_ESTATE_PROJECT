@@ -33,7 +33,7 @@ export default function SignUp() {
       }
       setLoading(false);
       setError(null);
-      nevigate('/sign-in');
+      nevigate('/sign-in'); 
     } catch (error) {
       setLoading(false);
       setError(error.message);
